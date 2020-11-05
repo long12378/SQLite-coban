@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+            android:id="@+id/tv_id"
+            android:layout_weight="2"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:text="ID" />
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+            android:id="@+id/tv_name"
+            android:layout_weight="2"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:text="NAME" />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+            android:id="@+id/tv_toan"
+            android:layout_weight="2"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:text="TOAN" />
+        <EditText
+            android:id="@+id/et_toan"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+            android:id="@+id/tv_ly"
+            android:layout_weight="2"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:text="LY" />
+        <EditText
+            android:id="@+id/et_ly"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+            android:id="@+id/tv_hoa"
+            android:layout_weight="2"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:text="HOA" />
+        <EditText
+            android:id="@+id/et_hoa"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_them"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="THEM" />
+
+        <Button
+            android:id="@+id/bt_sua"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SUA"
+            />
+        <Button
+            android:id="@+id/bt_xoa"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="XOA"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
